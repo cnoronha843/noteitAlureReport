@@ -35,8 +35,8 @@ jobs:
           allure_history: allure-history
 
       - name: Deploy report to Github Pages
-        uses: peaceiris/actions-gh-pages@v2
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.myKey }}
-          publish_dir: ./exampleSite/public
+          github_token: ${{ secrets.myKey }}
+          publish_dir: ./public
 
