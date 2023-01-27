@@ -37,8 +37,7 @@ jobs:
       - name: Deploy report to Github Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.myKey }}
-          ACTIONS_DEPLOY_KEY: ${{ secrets.myKey }}
+          deploy_key: ${{ secrets.myKey }}
           publish_dir: ./public
           
 
