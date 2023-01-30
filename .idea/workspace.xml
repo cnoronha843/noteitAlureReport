@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffd322f1-ff8e-44fc-903e-c172ea32df95" name="Changes" comment="Test allureReport">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/regressive.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/regressive.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.google.cloudcode.ide_session_index": "20230127_0002",
+    "com.google.cloudcode.ide_session_index": "20230130_0004",
     "last_opened_file_path": "/Users/premiersoft/Downloads/NoteItAllure/NoteitAllureReport"
   }
 }]]></component>
@@ -210,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674853655937</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Test allureReport">
+      <created>1675083115650</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1675083115650</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
