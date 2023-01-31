@@ -32,7 +32,6 @@ public class TestMenuSettingsIOSiPhone11ProMax extends TestBase {
                 screenLoginIos.loginCorrectIOS();
                 screenInBox.goToInbox();
                 screenInBox.menuInbox();
-                System.out.println("Cliquei  no menu inbox");
 
 
         }

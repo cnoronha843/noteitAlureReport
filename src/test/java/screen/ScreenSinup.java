@@ -119,7 +119,7 @@ getHelpFromTeamNoteit.click();
 
     }
     public void validationEmailScreeen() throws InterruptedException {
-        Thread.sleep(5000);
+
         System.out.println(subjectEmail.getText());
         System.out.println(fildEmailTo.getText());
         if (fildEmailTo.getText().equals("To:￼support@drawnoteit.com")){

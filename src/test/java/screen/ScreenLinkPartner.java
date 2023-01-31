@@ -64,7 +64,7 @@ public class ScreenLinkPartner extends ScreenBase {
     private RemoteWebElement buttonNext;
 
     public void connectWithAPartner(String partnerCode) throws MalformedURLException, InterruptedException {
-        Thread.sleep(3000);
+
 //        longPressByElement(fildPartner,1000);
 //       HasClipboard clipboard = ((HasClipboard) DriverFactory.getDriver(""));
 //        clipboard.setClipboardText(partnerCode);
@@ -102,20 +102,20 @@ public void openWhatIsAPartner() throws MalformedURLException, InterruptedExcept
     }
 
     public void copyCode() throws InterruptedException, MalformedURLException {
-        Thread.sleep(2000);
+
         System.out.println( buttonShareCode.getText());
         buttonShareCode.click();
 
     }
 
     public void refreshCodePartner() throws InterruptedException {
-        Thread.sleep(2000);
+
         System.out.println( buttonShareCodeGetText());
-        Thread.sleep(2000);
+
         menuHelp();
-        Thread.sleep(2000);
+
         refreshCode.click();
-        Thread.sleep(2000);
+
         System.out.println( buttonShareCodeGetText());
     }
 
@@ -131,7 +131,7 @@ public void openWhatIsAPartner() throws MalformedURLException, InterruptedExcept
     }
 
     public void  validationEmailScreeen() throws InterruptedException, MalformedURLException {
-        Thread.sleep(5000);
+
         System.out.println(subjectEmail.getText());
         System.out.println(fildEmailTo.getText());
         if ( subjectEmail.getText().equals("I'm not able to connect to my partner")){

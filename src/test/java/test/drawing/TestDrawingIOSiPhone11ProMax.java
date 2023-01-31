@@ -79,9 +79,9 @@ public class TestDrawingIOSiPhone11ProMax extends TestBase {
 
         @Test
         public void trashDrawing() throws InterruptedException, MalformedURLException {
-                Thread.sleep(2000);
+
                 screenDrawing.verifyShowToolsIos();
-                Thread.sleep(2000);
+
                 screenDrawing.accessToolKit();
                 screenDrawing.sliderBrushMinimo();
                 screenDrawing.drawN();
@@ -108,18 +108,18 @@ public class TestDrawingIOSiPhone11ProMax extends TestBase {
         }
         @Test
         public void sendNoteAfterTrashingAPicture() throws MalformedURLException, InterruptedException {
-                Thread.sleep(2000);
+
                 screenDrawing.verifyShowToolsIos();
                 screenDrawing.openCamera();
                 screenDrawing.permissionCameraClick();
                 screenDrawing.takePictureIOS();
-                Thread.sleep(2000);
+
                 screenDrawing.trashDrawing();
                 screenDrawing.validateCleanScreen();
                 screenDrawing.openCamera();
                 screenDrawing.takePictureIOS();
                 screenDrawing.sendNote(driver);
-                Thread.sleep(5000);
+
                 screenDrawing.assertSendNoteIOS();
 
         }
@@ -164,16 +164,16 @@ public class TestDrawingIOSiPhone11ProMax extends TestBase {
 
         @Test
         public void sendNote() throws MalformedURLException, InterruptedException {
-                Thread.sleep(2000);
+
                 screenDrawing.verifyShowToolsIos();
-                Thread.sleep(2000);
+
                 screenDrawing.accessToolKit();
                 screenDrawing.assertCanetaIOS();;
                 screenDrawing.drawN();
                 screenDrawing.doneClick();
-                Thread.sleep(5000);
+
                 screenDrawing.sendNote(driver);
-                Thread.sleep(5000);
+
                 screenDrawing.assertSendNoteIOS();
         }
 

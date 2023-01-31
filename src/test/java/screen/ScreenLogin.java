@@ -56,9 +56,7 @@ public class ScreenLogin extends ScreenBase {
     public void loginCorrectIOS() throws InterruptedException {
         botaoMaisOpcoes.click();
         campoEmail.sendKeys("carlos.automation.ios.noteit@gmail.com");
-        System.out.println("Escreve o e-mail");
         campoSenha.sendKeys("Mudar123");
-        System.out.println("Escreve a senha");
         botaoEntrar.click();
 
     }
@@ -103,9 +101,6 @@ public class ScreenLogin extends ScreenBase {
 
     }
     public void validationLoginPasswordIncorrect() throws MalformedURLException, InterruptedException {
-        System.out.println("Enter in validation");
-//        waitUntilText(passwordIncorrect,"Password is incorrect...or this user doesn’t exist yet.");
-//        Assert.assertEquals("Password is incorrect...or this user doesn’t exist yet." , passwordIncorrect.getText());
         Assert.assertEquals("Oh no!" , passwordIncorrect.getText());
     }
     public void okClick() throws MalformedURLException, InterruptedException {

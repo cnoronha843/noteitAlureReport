@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffd322f1-ff8e-44fc-903e-c172ea32df95" name="Changes" comment="Add more tests and change Browserstack data access">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/screen/ScreenLinkPartner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/screen/ScreenLinkPartner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/screen/ScreenLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/screen/ScreenLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/screen/ScreenSinup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/screen/ScreenSinup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/drawing/TestDrawingIOSiPhone11ProMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/drawing/TestDrawingIOSiPhone11ProMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/login/TestLoginIOSiPhone11ProMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/login/TestLoginIOSiPhone11ProMax.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/menuSettings/TestMenuSettingsIOSiPhone11ProMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/menuSettings/TestMenuSettingsIOSiPhone11ProMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/sinup/TestSignupIOSiPhone11ProMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/sinup/TestSignupIOSiPhone11ProMax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -316,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675179915179</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Add more tests and change Browserstack data access">
+      <created>1675180989012</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1675180989012</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
