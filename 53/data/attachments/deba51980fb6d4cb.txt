@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: test.sinup.TestSignupIOSiPhone11ProMax
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 43.122 s - in test.sinup.TestSignupIOSiPhone11ProMax
