@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffd322f1-ff8e-44fc-903e-c172ea32df95" name="Changes" comment="change allure_results: target/allure-results/">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/regressive.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/regressive.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/drawing/TestDrawingIOSiPhone11ProMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/drawing/TestDrawingIOSiPhone11ProMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/menuSettings/TestMenuSettingsIOSiPhone11ProMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/menuSettings/TestMenuSettingsIOSiPhone11ProMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/sinup/TestSignupIOSiPhone11ProMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/sinup/TestSignupIOSiPhone11ProMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+    <list default="true" id="ffd322f1-ff8e-44fc-903e-c172ea32df95" name="Changes" comment="Fix pom">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -345,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675183206007</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Fix pom">
+      <created>1675184614092</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1675184614092</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -366,6 +369,7 @@
     <MESSAGE value="Add more tests and change Browserstack data access" />
     <MESSAGE value="Allure maven plugin change" />
     <MESSAGE value="change allure_results: target/allure-results/" />
-    <option name="LAST_COMMIT_MESSAGE" value="change allure_results: target/allure-results/" />
+    <MESSAGE value="Fix pom" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix pom" />
   </component>
 </project>
