@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffd322f1-ff8e-44fc-903e-c172ea32df95" name="Changes" comment="Fix update Report">
+    <list default="true" id="ffd322f1-ff8e-44fc-903e-c172ea32df95" name="Changes" comment="Add more tests and change Browserstack data access">
       <change beforePath="$PROJECT_DIR$/src/test/java/test/drawing/TestDrawingIOSiPhone11ProMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/drawing/TestDrawingIOSiPhone11ProMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/login/TestLoginIOSiPhone11ProMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/login/TestLoginIOSiPhone11ProMax.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/menuSettings/TestMenuSettingsIOSiPhone11ProMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/menuSettings/TestMenuSettingsIOSiPhone11ProMax.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/sinup/TestSignupIOSiPhone11ProMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/sinup/TestSignupIOSiPhone11ProMax.java" afterDir="false" />
     </list>
@@ -308,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675179301389</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Add more tests and change Browserstack data access">
+      <created>1675179915179</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1675179915179</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -326,6 +334,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Test allureReport" />
     <MESSAGE value="Fix update Report" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix update Report" />
+    <MESSAGE value="Add more tests and change Browserstack data access" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add more tests and change Browserstack data access" />
   </component>
 </project>

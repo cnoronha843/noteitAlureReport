@@ -20,7 +20,7 @@ public class TestLoginIOSiPhone11ProMax extends TestBase {
 
         @Before
         public  void caps() throws MalformedURLException {
-                driver = DriverFactory.getDriver("browserstackiOS");
+                driver = DriverFactory.getDriver("iPhone11ProMax");
                 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
                 screenLoginIos = new ScreenLogin(driver);
         }

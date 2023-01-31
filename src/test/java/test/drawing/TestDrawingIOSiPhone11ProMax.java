@@ -22,7 +22,7 @@ public class TestDrawingIOSiPhone11ProMax extends TestBase {
 
         @Before
         public void caps() throws MalformedURLException, InterruptedException {
-                driver = DriverFactory.getDriver("browserstackiOS");
+                driver = DriverFactory.getDriver("iPhone11ProMax");
                 driver.resetApp();
                 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
                 screenDrawing = new ScreenDrawing(driver);
