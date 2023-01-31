@@ -10,9 +10,9 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class DriverFactory {
-    private static String userBrowserstack = "letciapremiersof_KT7Ghg";
-    private static String passwordBrowserstack = "94EYeNppxuqRpvjn4Xh2";
-    private static String appBrowserstack = "bs://bbd80840bf64ea8388b12ece612b3a681a53482e";
+    private static String userBrowserstack = "leticiakrauss_eA4D2i";
+    private static String passwordBrowserstack = "wh2HRE8eCxavzB21FDR9";
+    private static String appBrowserstack = "bs://7e9d99967b187e7e00f510997bc4327b09f90cc8";
     private static AppiumDriver<RemoteWebElement> driver;
     public static void killDriver(){
         if (driver!= null){
