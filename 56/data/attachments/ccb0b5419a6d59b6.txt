@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: test.drawing.TestDrawingIOSiPhone11ProMax
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 422.628 s <<< FAILURE! - in test.drawing.TestDrawingIOSiPhone11ProMax
+sendNoteAfterTrashingAPicture(test.drawing.TestDrawingIOSiPhone11ProMax)  Time elapsed: 273.006 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.AccessibilityId: trash})
+	at test.drawing.TestDrawingIOSiPhone11ProMax.sendNoteAfterTrashingAPicture(TestDrawingIOSiPhone11ProMax.java:117)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@74a9c4b0 (tried for 1 second(s) with 500 milliseconds interval)
+	at test.drawing.TestDrawingIOSiPhone11ProMax.sendNoteAfterTrashingAPicture(TestDrawingIOSiPhone11ProMax.java:117)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.AccessibilityId: trash})
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'fv-az454-899', ip: '10.1.0.193', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1031-azure', java.version: '1.8.0_362'
+Driver info: driver.version: IOSDriver
+	at test.drawing.TestDrawingIOSiPhone11ProMax.sendNoteAfterTrashingAPicture(TestDrawingIOSiPhone11ProMax.java:117)
+
