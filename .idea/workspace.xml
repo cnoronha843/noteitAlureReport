@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffd322f1-ff8e-44fc-903e-c172ea32df95" name="Changes" comment="Fix pom">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/regressive.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/regressive.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -383,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675189310153</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Fix pom">
+      <created>1675191839277</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1675191839277</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
