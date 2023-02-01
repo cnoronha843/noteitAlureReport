@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Wed Feb 01 15:56:31 GMT 2023","Wed Feb 01 15:57:26 GMT 2023","54598","","test.login.TestLoginIOSiPhone11ProMax","","test.login.TestLoginIOSiPhone11ProMax","testLoginLoginPasswordIncorrect","Login Incorrect",""
+"passed","Wed Feb 01 15:57:26 GMT 2023","Wed Feb 01 15:57:40 GMT 2023","14160","","test.login.TestLoginIOSiPhone11ProMax","","test.login.TestLoginIOSiPhone11ProMax","testLoginPasswordCorrect","Login successful",""
